@@ -39,7 +39,7 @@ export default function Home() {
         {/* overlay */}
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/55 z-[1]"/>
         {/* background image */}
-        <Image src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="weather_overview" className="object-cover"/>
+        <Image src="https://images.unsplash.com/photo-1454789476662-53eb23ba5907?q=80&w=1952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" layout="fill" alt="weather_overview" className="object-cover"/>
         
        {/* Search  */}
        <div className="relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 text-white z-10">
