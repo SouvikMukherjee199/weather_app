@@ -1,5 +1,7 @@
 import React from 'react'
+import Image from 'next/legacy/image';
 import spinner from '../public/spinner.gif';
+import next from 'next'
 const Spinner = () => {
   return (
     <>
